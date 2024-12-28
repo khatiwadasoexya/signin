@@ -1,0 +1,42 @@
+# Ignore Python environment folder
+env/
+
+# Python-specific ignores
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Ignore virtual environment directories for Python
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js dependencies in the React frontend
+frontend/node_modules/
+
+# Ignore build folder for React frontend
+frontend/build/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore coverage files
+coverage/
+.coverage
+
+# Ignore environmental variable files (if applicable)
+.env
